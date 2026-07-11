@@ -14,7 +14,6 @@ To view the user flow, save your screenshots inside a folder named `ScreenShots`
 | **3. Receiving Live Feed** | **4. Transfer History Log** |
 | <img src="ScreenShots/3.png" width="300" alt="Receiver Screen"/> | <img src="ScreenShots/4.png" width="300" alt="History Screen"/> |
 
-> 💡 **Image Setup Note:** For the images to render perfectly on GitHub, ensure you create a folder named `ScreenShots/` in your root directory and save your app screenshots inside it as `1.png`, `2.png`, `3.png`, and `4.png`.
 
 ---
 
