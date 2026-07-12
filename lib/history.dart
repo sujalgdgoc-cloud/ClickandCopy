@@ -184,7 +184,7 @@ class _HistoryState extends State<History> {
 
                             const SizedBox(height: 16),
 
-                            /// Clipboard Text
+
                             Container(
                               width: double.infinity,
                               padding: const EdgeInsets.all(14),
