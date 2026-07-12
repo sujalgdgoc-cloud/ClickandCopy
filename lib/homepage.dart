@@ -248,7 +248,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                           .remove();
 
                       final int newExpiry = DateTime.now()
-                          .add(const Duration(seconds: 120))
+                          .add(const Duration(seconds: 300))
                           .millisecondsSinceEpoch;
 
                       setState(() {
