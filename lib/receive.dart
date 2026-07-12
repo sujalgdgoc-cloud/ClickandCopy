@@ -183,11 +183,13 @@ class _ReceiveState extends State<Receive> {
                                 .child('paring_room')
                                 .child(pairing_code);
 
-                            database.child("devices").push().set({
-                              "device_name": nameController.text.toString(),
+                            final deviceRef = database.child("devices").push();
+
+                            await deviceRef.set({
+                              "device_name": nameController.text
                             });
 
-                            database.child("devices").onDisconnect().remove();
+                            deviceRef.onDisconnect().remove();
                             final DataSnapshot snapshot = await database.get();
 
                             if (snapshot.exists) {
